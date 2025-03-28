@@ -40,7 +40,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install dependencies
         run: yarn install
-      - name: Build with Next.js
+      - name: Building
         run: yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
