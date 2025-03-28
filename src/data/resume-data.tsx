@@ -97,6 +97,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Saku Ceria",
+      link: "",
       badges: ["On Site", "Laravel", "Android", "Java"],
       title: "IT Supervisor",
       logo: ClevertechLogo,
@@ -121,6 +122,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Ngerti IT",
+      link: "",
       badges: ["Remote", "Laravel", "Android", "Java"],
       title: "Founder/Creator",
       logo: JojoMobileLogo,
