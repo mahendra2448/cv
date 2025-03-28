@@ -6,235 +6,185 @@ import {
   NSNLogo,
   ParabolLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Mahendra Syathi",
+  initials: "MS",
+  location: "Jakarta, Indonesia",
+  locationLink: "https://www.google.com/maps/place/Jakarta",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Backend-focused Full Stack Engineer specializing in high-performance services. 
+      Experienced in Laravel, Golang, WordPress, event-driven, optimizing database, and remote team workflows.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/48004399?v=4",
+  personalWebsiteUrl: "https://mahendra.page",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ndra@tuta.io",
+    tel: "+6285718199951",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/mahendra2448",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://id.linkedin.com/in/mahendra-syathi",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Gunadarma University",
+      degree: "Bachelor's Degree in Informatic Engineering",
+      start: "2014",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "iFortepay",
+      link: "https://ifortepay.id",
+      badges: ["Hybrid", "Laravel", "Go", "WordPress", "Javascript", "Kafka", "Redis"],
+      title: "Software Engineer",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2022",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Successfully revamped event-driven based services from Laravel to Go and increase request per second processed data ~70%
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Build the official documentation that can be updated by product teams without Git.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Developed and maintaining iFortepay plugin for WooCommerce - WordPress
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Improving database read/write transaction with table partitioning in PostgreSQL
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
+      company: "Sun Logistics",
+      link: "https://sunlogistics.co.id/",
+      badges: ["On Site", "Laravel", "Javascript", "Bootstrap CSS", "Websocket"],
       title: "Senior Full Stack Developer",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "2022",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Senior developer for an international logistic company.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Built and transitioned old-papers workflows to digital system for warehouse&apos;s data
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Developed and improving internal finance application with multiple role
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Saku Ceria",
+      badges: ["On Site", "Laravel", "Android", "Java"],
+      title: "IT Supervisor",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2020",
       end: "2021",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Supervising and manage IT team related to IT fields for the fin-tech company.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Coordinating with bank or merchant to implement payment integration.
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Improving on the application features collaborate with the product and business team.
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Built dashboard to provide latest transaction&apos;s data recap for finance team.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
+      company: "Ngerti IT",
+      badges: ["Remote", "Laravel", "Android", "Java"],
+      title: "Founder/Creator",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2020",
+      end: "2021",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
+          Ideate &quot;Ngerti IT&ldquo; as an Android app to help people easy to understand words related to IT fields.
           <ul className="list-inside list-disc">
             <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
+              Build the backend to serve contents into the Android apps via REST API
             </li>
-            <li>Built and mentored high-performing mobile development team</li>
+            <li>
+              Led the team to managing the content&apos;s update for the apps and posts on Instagram
+            </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
+      company: "design cub3",
+      link: "https://designcub3.com/",
+      badges: ["Hybrid", "Laravel", "Javascript", "WordPress"],
+      title: "Full Stack Web Developer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      start: "Jan 2020",
+      end: "Dec 2020",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              Developed website based on client requests for enterprise and small company
+            </li>
+            <li>
+              Gaining strong fundamentals in technical skills, managing multiple projects, and cross-team collaboration
+            </li>
+          </ul>
+        </>
+      ),
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
+    "Laravel",
+    "Go",
+    "Javascript",
+    "WordPress",
+    "Bootstrap CSS",
+    "VueJS",
+    "CI/CD",
+    "Agile",
+    "Linux",
     "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Database Optimizing",
+    "Remote Team-work",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "shad-dashboard",
+      techStack: ["Laravel", "VueJS", "Shadcn UI"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
+        "An open-source simple admin dashboard based on Laravel 11 and Shadcn-vue UI",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "shad-dashboard",
+        href: "https://github.com/mahendra2448/shad-dashboard",
       },
     },
   ],
