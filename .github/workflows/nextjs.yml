@@ -43,7 +43,7 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: "/cv" 
       - name: Building
-        run: yarn next build
+        run: yarn next build && mkdir out
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
