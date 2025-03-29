@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: "/cv/public", // If your repo is named "cv"
+    distDir: "out",
+    images: {
+      unoptimized: true, // GitHub Pages does not support Image Optimization
+    },
 }
 
 module.exports = nextConfig
