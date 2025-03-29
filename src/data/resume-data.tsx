@@ -53,7 +53,6 @@ export const RESUME_DATA = {
       link: "https://ifortepay.id",
       badges: ["Hybrid", "Laravel", "Go", "WordPress", "Javascript", "Kafka", "Redis"],
       title: "Software Engineer",
-      logo: ConsultlyLogo,
       start: "2022",
       end: null,
       description: (
@@ -78,7 +77,6 @@ export const RESUME_DATA = {
       link: "https://sunlogistics.co.id/",
       badges: ["On Site", "Laravel", "Javascript", "Bootstrap CSS", "Websocket"],
       title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
       start: "2021",
       end: "2022",
       description: (
@@ -100,7 +98,6 @@ export const RESUME_DATA = {
       link: "",
       badges: ["On Site", "Laravel", "Android", "Java"],
       title: "IT Supervisor",
-      logo: ClevertechLogo,
       start: "2020",
       end: "2021",
       description: (
@@ -125,7 +122,6 @@ export const RESUME_DATA = {
       link: "",
       badges: ["Remote", "Laravel", "Android", "Java"],
       title: "Founder/Creator",
-      logo: JojoMobileLogo,
       start: "2020",
       end: "2021",
       description: (
@@ -147,7 +143,6 @@ export const RESUME_DATA = {
       link: "https://designcub3.com/",
       badges: ["Hybrid", "Laravel", "Javascript", "WordPress"],
       title: "Full Stack Web Developer",
-      logo: NSNLogo,
       start: "Jan 2020",
       end: "Dec 2020",
       description: (
