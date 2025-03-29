@@ -42,15 +42,13 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Building
-        run: yarn build
+        run: yarn build && yarn export
         env:
           PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
-      # - name: Move Output to Public Folder
-      #   run: mv .next/static public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: public
 
   # Deployment job
   deploy:
