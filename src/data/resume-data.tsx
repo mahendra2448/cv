@@ -164,8 +164,11 @@ export const RESUME_DATA = {
     "Go",
     "Javascript",
     "WordPress",
-    "Bootstrap CSS",
     "VueJS",
+    "MySQL",
+    "PostgreSQL",
+    "Apache Kafka",
+    "Redis",
     "CI/CD",
     "Agile",
     "Linux",
@@ -182,6 +185,16 @@ export const RESUME_DATA = {
       link: {
         label: "shad-dashboard",
         href: "https://github.com/mahendra2448/shad-dashboard",
+      },
+    },
+    {
+      title: "laravel8-shad-dashboard",
+      techStack: ["Laravel8", "VueJS", "Shadcn UI"],
+      description:
+        "An open-source simple admin dashboard based on Laravel 8 and Shadcn-vue UI",
+      link: {
+        label: "laravel8-shad-dashboard",
+        href: "https://github.com/mahendra2448/laravel8-shad-dashboard",
       },
     },
   ],
