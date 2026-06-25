@@ -42,31 +42,55 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Gunadarma University",
-      degree: "Bachelor's Degree in Informatic Engineering",
+      degree: "Bachelor's Degree in Informatics Engineering",
       start: "2014",
       end: "2019",
     },
   ],
   work: [
     {
+      company: "Colmitra",
+      link: "https://colmitra.com",
+      badges: ["Hybrid", "Laravel", "Go", "Javascript", "Docker", "Redis", "Android"],
+      title: "IT Programmer Supervisor",
+      start: "2025",
+      end: null,
+      description: (
+        <>
+          Successfully improved the slow data upload process from 2,000 rows per hour to ~1,000 rows per second
+          <ul className="list-inside list-disc">
+            <li>
+              Managed and led the team for developing products.
+            </li>
+            <li>
+              Coordinating with the third-party client to implement data sharing process.
+            </li>
+            <li>
+              Implement an agile environment for the development process using open-source SaaS.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
       company: "iFortepay",
       link: "https://ifortepay.id",
       badges: ["Hybrid", "Laravel", "Go", "WordPress", "Javascript", "Kafka", "Redis"],
       title: "Software Engineer",
       start: "2022",
-      end: null,
+      end: "2025",
       description: (
         <>
-          Successfully revamped event-driven based services from Laravel to Go and increase request per second processed data ~70%
+          Successfully revamped app services from Laravel to Golang and increased the request per second processed data by ~70%
           <ul className="list-inside list-disc">
             <li>
-              Build the official documentation that can be updated by product teams without Git.
+              Build official documentation that product teams can update without Git.
             </li>
             <li>
-              Developed and maintaining iFortepay plugin for WooCommerce - WordPress
+              Developed and maintained the iFortepay plugin for WooCommerce - WordPress
             </li>
             <li>
-              Improving database read/write transaction with table partitioning in PostgreSQL
+              Improving database read/write transactions with table partitioning in PostgreSQL
             </li>
           </ul>
         </>
@@ -81,13 +105,13 @@ export const RESUME_DATA = {
       end: "2022",
       description: (
         <>
-          Senior developer for an international logistic company.
+          Senior developer for an international logistics company.
           <ul className="list-inside list-disc">
             <li>
-              Built and transitioned old-papers workflows to digital system for warehouse&apos;s data
+              Built and transitioned old paper workflows to a digital system for the warehouse's data
             </li>
             <li>
-              Developed and improving internal finance application with multiple role
+              Developed and improved an internal finance application with multiple roles
             </li>
           </ul>
         </>
@@ -102,16 +126,16 @@ export const RESUME_DATA = {
       end: "2021",
       description: (
         <>
-          Supervising and manage IT team related to IT fields for the fin-tech company.
+          Supervising and managing the IT team related to IT fields for the fintech company.
           <ul className="list-inside list-disc">
             <li>
-              Coordinating with bank or merchant to implement payment integration.
+              Coordinating with the bank or merchant to implement payment integration.
             </li>
             <li>
-              Improving on the application features collaborate with the product and business team.
+              Improving on the application features, collaborate with the product and business team.
             </li>
             <li>
-              Built dashboard to provide latest transaction&apos;s data recap for finance team.
+              Built a dashboard to provide the latest transaction&apos;s data recap for the finance team.
             </li>
           </ul>
         </>
@@ -126,13 +150,13 @@ export const RESUME_DATA = {
       end: "2021",
       description: (
         <>
-          Ideate &quot;Ngerti IT&ldquo; as an Android app to help people easy to understand words related to IT fields.
+          Ideate &quot;Ngerti IT&ldquo; as an Android app to help people easily understand words related to IT fields.
           <ul className="list-inside list-disc">
             <li>
-              Build the backend to serve contents into the Android apps via REST API
+              Build the backend to serve content to the Android apps via REST API
             </li>
             <li>
-              Led the team to managing the content&apos;s update for the apps and posts on Instagram
+              Led the team in managing the content&apos;s updates for the apps and posts on Instagram
             </li>
           </ul>
         </>
@@ -149,7 +173,7 @@ export const RESUME_DATA = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Developed website based on client requests for enterprise and small company
+              Developed a website based on client requests for an enterprise and a small company
             </li>
             <li>
               Gaining strong fundamentals in technical skills, managing multiple projects, and cross-team collaboration
