@@ -42,7 +42,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Gunadarma University",
-      degree: "Bachelor's Degree in Informatics Engineering",
+      degree: "Bachelor&apos;s Degree in Informatics Engineering",
       start: "2014",
       end: "2019",
     },
@@ -63,7 +63,7 @@ export const RESUME_DATA = {
               Managed and led the team for developing products.
             </li>
             <li>
-              Coordinating with the third-party client to implement data sharing process.
+              Coordinating with the third-party client to implement the data sharing process.
             </li>
             <li>
               Implement an agile environment for the development process using open-source SaaS.
@@ -108,7 +108,7 @@ export const RESUME_DATA = {
           Senior developer for an international logistics company.
           <ul className="list-inside list-disc">
             <li>
-              Built and transitioned old paper workflows to a digital system for the warehouse's data
+              Built and transitioned old paper workflows to a digital system for the warehouse&apos;s data
             </li>
             <li>
               Developed and improved an internal finance application with multiple roles
