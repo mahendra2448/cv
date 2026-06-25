@@ -21,7 +21,7 @@ export const RESUME_DATA = {
       Experienced in Laravel, Golang, WordPress, event-driven, optimizing database, and remote team workflows.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/48004399?v=4",
+  avatarUrl: "https://lh3.googleusercontent.com/a/ACg8ocLL0VCxeOBKVdUSSKWXhNq-4SCw2nUpWnaHiyTeXGpqHDuYsfY=s576-c-no",
   personalWebsiteUrl: "https://mahendra.page",
   contact: {
     email: "ndra@tuta.io",
